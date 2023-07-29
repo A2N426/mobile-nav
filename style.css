@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    ;
+}
+
+/* utils style here*/
+
+.primary-btn-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-image: linear-gradient(to bottom right, #625EFF, #8849FF);
+    border: none;
+    width: 185.5px;
+    height: 51px;
+    padding: 12px, 24px, 12px, 24px;
+    border-radius: 8px;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27.2px;
+}
+
+/* header-row style start from here */
+.header-row {
+    background-image: url("images/nav/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1961.36px;
+    height: 967.03px;
+    position: relative;
+}
+
+.nav-row {
+    height: 30px;
+    max-width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-top: 37px;
+}
+
+.nav-title-row {
+    z-index: 1;
+    color: #ffff;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.nav-link-row {
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    font-size: 16px;
+    list-style: none;
+    opacity: 90%;
+}
+
+.rectangle {
+    position: absolute;
+    left: 170px;
+    /* opacity: 20%; */
+}
+
+.effect-1 {
+    position: absolute;
+    top: -16px;
+    right: 806px;
+    /* opacity: 20%; */
+}
+
+.effect-2 {
+    position: absolute;
+    top: 636.73px;
+    left: -40px;
+    /* opacity: 20%; */
+}
+
+.ellipse-1 {
+    position: absolute;
+    top: 228px;
+    left: 213.98px;
+}
+
+.ellipse-2 {
+    position: absolute;
+    top: 352.53px;
+    left: 77.08px;
+}
+
+/* main banner start from here */
+.main-banner {
+    width: 1320px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    position: absolute;
+    top: 175.76px;
+    left: 300px;
+    z-index: 1;
+}
+
+.rectangle-2 {
+    position: absolute;
+    top: 199.52px;
+    left: 856.59px;
+}
+
+.hide {
+    position: absolute;
+    top: 835.02px;
+    left: 692.79px;
+}
+
+.banner-description {
+    z-index: 1;
+    width: 656.05px;
+    height: 433px;
+}
+
+.banner-subtitle {
+    font-size: 18px;
+    opacity: 60%;
+    font-weight: 400;
+}
+
+.banner-title-row {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    margin-top: 8px;
+}
+
+.banner-features {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.features-title {
+    font-size: 24px;
+    font-weight: 500;
+    opacity: 60%;
+}
+
+.arrow {
+    width: 8px;
+    height: 7px;
+}
+
+.btn-group-row {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.secondary-btn-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-image: linear-gradient(to bottom right, #625EFF, #8849FF);
+    border: none;
+    width: 158px;
+    height: 51px;
+    padding: 12px, 24px, 12px, 24px;
+    border-radius: 8px;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27.2px;
+}
+
+.secondary-btn-2 {
+    background-color: #1D1D32;
+    border: none;
+    width: 143px;
+    height: 51px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    padding: 12px 24px 12px 24px;
+    gap: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27.2px;
+}
+
+.countdown-group {
+    margin-top: 64px;
+    display: flex;
+    gap: 64px;
+    align-items: center;
+}
+
+.countdown-title {
+    font-family: "Manrope";
+    font-size: 18px;
+    opacity: 60%;
+}
+
+.countdown-number {
+    font-family: "Manrope";
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.banner-image-row {
+    width: 600px;
+    height: 700px;
+    border-radius: 50px;
+}
+
+.banner-image-description {
+    width: 490px;
+    height: 85px;
+    position: absolute;
+    top: 588.24px;
+    left: 782px;
+    z-index: 1;
+    font-family: "Manrope";
+}
+
+.stock-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 312px;
+    height: 29px;
+}
+
+.stock-group-row {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.stock-image {
+    background: #1D1D32;
+    padding: 4px;
+    border-radius: 4px;
+    width: 29px;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stock-description {
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 60%;
+    margin-top: 20px;
+    font-family: "Manrope";
+}
+
+.lady {}
+
+.lady-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 4px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 312px;
+    gap: 8px;
+   
+}
+
+.profile-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    margin-bottom: 0;
+}
+
+.profile-2 {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.profile-name {
+    opacity: 60%;
+    font-family: "Manrope";
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.profile-2-div {
+    background: #1D1D32;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-2 {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.new-bid {
+    font-family: "Manrope";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+}
+
+.new-bit-text {
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 2px;
+}
+
+.ellipse-91 {
+    position: absolute;
+    top: 473.32px;
+    left: 1253px;
+}
