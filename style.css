@@ -24,24 +24,37 @@
 }
 
 /* header-row style start from here */
-.header-row {
-    background-image: url("images/nav/bg.png");
+.bg-image-row {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 1922px;
+    height: 960px;
+    position: absolute;
+    left: -0.64px;
+}
+
+.header-row {
+    /* background-image: url("images/nav/bg.png"); */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
     width: 1961.36px;
-    height: 967.03px;
+    height: 980.03px;
     position: relative;
 }
 
 .nav-row {
     height: 30px;
-    max-width: 1320px;
+    width: 1320px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
+    left: 298px;
+    top: 37px;
     margin: auto;
-    padding-top: 37px;
+    /* margin-top: 37px; */
 }
 
 .nav-title-row {
@@ -64,13 +77,14 @@
 .rectangle {
     position: absolute;
     left: 170px;
-    /* opacity: 20%; */
+    /* top: -90px; */
+    opacity: 70%;
 }
 
 .effect-1 {
     position: absolute;
-    top: -16px;
-    right: 806px;
+    /* top: -7px; */
+    right: 820px;
     /* opacity: 20%; */
 }
 
@@ -123,6 +137,7 @@
     z-index: 1;
     width: 656.05px;
     height: 433px;
+    margin-bottom: 50px;
 }
 
 .banner-subtitle {
@@ -153,7 +168,8 @@
 
 .arrow {
     width: 8px;
-    height: 7px;
+    height: 14px;
+    margin-bottom: 14px;
 }
 
 .btn-group-row {
@@ -204,16 +220,17 @@
 }
 
 .countdown-title {
-    font-family: "Manrope";
+    /* font-family: "Manrope"; */
     font-size: 18px;
     opacity: 60%;
 }
 
 .countdown-number {
-    font-family: "Manrope";
+    /* font-family: "Manrope"; */
     font-size: 36px;
     font-weight: 700;
     color: #ffffff;
+    margin-top: 8px;
 }
 
 .banner-image-row {
@@ -280,7 +297,7 @@
     justify-content: space-between;
     width: 312px;
     gap: 8px;
-   
+
 }
 
 .profile-1 {
@@ -298,6 +315,7 @@
 }
 
 .profile-name {
+    color: #ffffff;
     opacity: 60%;
     font-family: "Manrope";
     font-size: 12px;
@@ -339,4 +357,234 @@
     position: absolute;
     top: 473.32px;
     left: 1253px;
+}
+
+/* header responsive here */
+@media only screen and (max-width: 668px) {
+    * {
+        margin: auto;
+    }
+}
+
+/* explore section style start from here */
+main {
+    margin-top: 120px;
+}
+
+.explore-section {
+    width: 1320px;
+    height: 983px;
+    margin: auto;
+}
+
+.explore-header {
+    width: 1320px;
+    height: 58px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.explore-title {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.explore-btn-group {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+
+.explore-btn-1 {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background: #5F5FFF;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.explore-btn-2 {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background: #1E1E37;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.explore-btn-2:hover {
+    background: #5F5FFF;
+}
+
+.card-group-row {
+    margin-top: 122px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.card-row {
+    width: 312px;
+    height: 361px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.card-image-row {
+    width: 312px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.three-dot {
+    background: #1D1D32;
+    padding: 4px;
+    border-radius: 4px;
+    width: 29px;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 16px;
+    left: 262.59px;
+}
+
+.card-top-row {
+    margin-top: 24px;
+    height: 29px;
+}
+
+.card-top-title {
+    font-size: 12px;
+    color: #ffffff;
+    opacity: 60%;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.card-top-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 312px;
+    height: 29px;
+
+}
+
+.card-profile {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.card-title-row {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 4px;
+    line-height: 28.8px;
+}
+
+.card-group-row {}
+
+.bottom-title-row {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.card-profile-row {
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-profile-1 {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.bottom-title-row {
+    margin-top: 24px;
+}
+
+.reminder-row {
+    width: 170px;
+    height: 24px;
+    padding: 4px;
+    position: absolute;
+    top: 156px;
+    left: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    visibility: hidden;
+}
+
+.card-row:hover .reminder-row{
+    visibility: visible;
+    color: #625EFF;
+}
+.card-row:hover .bottom-title-row{
+    color: #625EFF;
+}
+
+.vl {
+    border-left: 1px solid #EAEAEA;
+    height: 10px;
+}
+
+.reminder-number {
+    color: #1C1C1C;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.reminder-alpha {
+    color: #1C1C1C;
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 60%;
+    margin-left: -7px;
+}
+
+.reminder-alpha-s {
+    color: #1C1C1C;
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 60%;
+    margin-left: -4px;
+}
+
+.explore-btn-container {
+    width: 162px;
+    height: 51px;
+    margin: auto;
+    margin-top: 79px;
+}
+
+.explore-btn {
+    color: #625EFF;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    background: transparent;
+    border-radius: 8px;
+    padding: 12px 24px;
+    color: #625EFF;
+    border: 1px solid;
 }
