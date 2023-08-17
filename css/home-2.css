@@ -255,7 +255,7 @@
 .hero-1-position-5 {
   position: absolute;
   top: -210px;
-  right: 460px;
+  left: 765px;
 }
 .hero-1-position-6 {
   position: absolute;
@@ -4621,18 +4621,18 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 10px;
-    row-gap: 20px;
+    row-gap: 10px;
     margin-top: 15px;
   }
 
   .top-seller-image {
     max-width: 80px;
-    height: 100%;
+    height: 80px;
     border-radius: 8px;
   }
   .top-seller-card {
     max-width: 240px;
-    height: 70px;
+    height: 85px;
     display: flex;
     justify-content: space-between;
   }
@@ -4698,17 +4698,17 @@
     margin-top: 12px;
   }
   .top-seller-image {
-    width: 50px;
-    height: 50px;
+    width: 65px;
+    height: 65px;
     border-radius: 8px;
   }
   .top-seller-card {
-    max-width: 120px;
+    max-width: 170px;
     /* margin: auto; */
-    height: 50px;
+    height: 70px;
     display: flex;
-    gap: 10px;
-    justify-content: center;
+    gap: 0px;
+    justify-content: space-between;
   }
   .top-seller-title {
     display: flex;
@@ -4758,7 +4758,7 @@
   max-width: 1320px;
   margin: auto;
   padding-top: 120px;
-  padding-bottom: 70px;
+  padding-bottom:70px;
 }
 
 .footer-1-header {
@@ -4903,6 +4903,7 @@
   .footer-1-description {
     max-width: 1200px;
     margin: auto;
+    padding-bottom: 30px;
   }
 
   .footer-1-header {
@@ -5024,7 +5025,7 @@
   }
 
   .copyright {
-    margin-top: 88px;
+    margin-top: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -5048,6 +5049,7 @@
   .footer-1-description {
     max-width: 1000px;
     margin: auto;
+    padding-bottom: 20px;
   }
 
   .footer-1-header {
@@ -5169,7 +5171,7 @@
   }
 
   .copyright {
-    margin-top: 88px;
+    margin-top: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -5193,6 +5195,7 @@
   .footer-1-description {
     max-width: 900px;
     margin: auto;
+    padding-bottom: 30px;
   }
 
   .footer-1-header {
@@ -5312,14 +5315,12 @@
     flex-direction: column;
     gap: 16px;
   }
-
   .copyright {
-    margin-top: 80px;
+    margin-top: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-
   .copyright p {
     font-size: 14px;
     font-weight: 400;
@@ -5339,7 +5340,7 @@
     max-width: 695px;
     margin: auto;
     padding-top: 60px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
   }
 
   .footer-1-header {
@@ -5461,7 +5462,7 @@
   }
 
   .copyright {
-    margin-top: 70px;
+    margin-top: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -5486,7 +5487,7 @@
     max-width: 520px;
     margin: auto;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
   }
 
   .footer-1-header {
@@ -5615,7 +5616,7 @@
   }
 
   .copyright {
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -5637,10 +5638,12 @@
 /* microsoft surface duo series device */
 @media only screen and (max-width: 540px) and (min-width: 481px) {
   .footer-1-description {
-    max-width: 460px;
+    max-width: 100%;
     margin: auto;
     padding-top: 50px;
-    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
   }
 
   .footer-1-header {
@@ -5796,12 +5799,12 @@
 /* for sm device */
 @media only screen and (max-width: 480px) and (min-width: 359px) {
   .footer-1-description {
-    max-width: 350px;
-    padding-left: 10px;
-    padding-right: 10px;
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: auto;
     padding-top: 40px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
   }
 
   .footer-1-header {
@@ -5957,12 +5960,12 @@
 /* for xs device */
 @media only screen and (max-width: 358px) {
   .footer-1-description {
-    max-width: 270px;
-    padding-left: 5px;
-    padding-right: 5px;
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: auto;
     padding-top: 40px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
   }
   .footer-1-header {
     display: flex;
@@ -6018,7 +6021,7 @@
     grid-column-start: 2;
     grid-row-start: 2;  */
     grid-row-gap: 20px;
-    grid-column-gap: 50px;
+    grid-column-gap: 60px;
     /* display: flex; */
     margin-top: 20px;
   }
